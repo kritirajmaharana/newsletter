@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+ <link rel="stylesheet" href="style.css"> 
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+</head>
+<body>
+<div class="container">
+  <div class="stay">
+    <h1>Stay updated!</h1>
+    <p>Join 60,000+ product managers receiving monthly updates on:</p>
+    <ul>
+      <li class="icon">Product discovery and bulilding what natters</li>
+      <li class="icon">Measuring to ensure updates are a success</li>
+      <li class="icon">And much more!</li>
+    </ul>
+    
+      <form class="mail" id="newsletterForm" action="#" >
+        <div class="valid">
+    <label for="email">Email address</label>
+    <p class="hide" id="error-message">Valid mail required</p>
+  </div>
+    <input type="email" name="email" id="email" placeholder="email@company.com" required>
+    <input type="submit" value="Subscribe to monthly newsletter" class="submit">
+  </form>
+  </div>
+  <div class="image">
+    <img src="/assets/images/illustration-sign-up-desktop.svg" alt="">
+    <!-- <img class="mobileimg" src="/assets/images/illustration-sign-up-mobile.svg" alt=""> -->
+  </div>
+</div>
+<script src="/app.js"></script>
+</body>
+</html>
